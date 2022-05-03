@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@300&display=swap');
+body{
+	font-family: 'Libre Baskerville', serif;
+}
+/* titulos */
+h1{
+	color: #4F6629;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align:center;
+}
+
+h3{
+	color: #372F32;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align:center;
+	font-size:16px;
+}
+
+/*parrafos*/
+p{
+	color: #372F32;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align:center;
+}
+
+img{
+	align-content: center;
+}
+/*fondo*/
+body{
+	background-image: url(../img/fondo.jpg);
+}
+
+/*caja medio*/
+#contenedor{
+	width: 750px;
+	height: 600px;
+	background-color: #F0F1D2;
+	border-width: 50px;
+	border-style: solid;
+	border-color: #4B5936;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+#menu{
+    width: 750px;
+    height: 65px;
+    background-color: #aabc5f;
+    margin-left: auto;
+	margin-right: auto;
+	float-top;
+	position:absolute;
+}
+
+img{
+ display: block;
+ margin: 0px auto;
+}
+
+a{
+	text-decoration: none;
+	color:inherit;
+	font-size: 14px;
+}
+
+li{
+	float-top;
+	display:inline-block;
+	width:20%;
+	padding:5px 10px;
+	background-color:#4B5936;
+	border:1px solid #000;
+	text-align:center;
+	color:#fff;
+
+}
+
+li:hover{
+	background-color:#F0F1D2;
+	color:#4B5936;
+}
